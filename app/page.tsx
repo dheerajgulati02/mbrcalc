@@ -57,8 +57,8 @@ export default function Home() {
     <div className="p-5">
       <h1 className="text-xl">Calculator</h1>
       {/* Quantity */}
-      <div className="flex space-x-10 overflow-x-auto px-10">
-        <div className="flex flex-col space-y-2">
+      <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row space-x-10 md:overflow-x-auto px-10">
+        <div className="flex flex-col space-y-2 ml-10 md:ml-0">
           <label htmlFor="quantity">Quantity</label>
           <input
             type="number"
